@@ -6,6 +6,6 @@ spec:
   queueManager:
     name: MSGSERVERQM
     storage:
-      defaultClass: ocs-storagecluster-ceph-rbd
+      defaultClass: ibmc-vpc-block-10iops-tier
     availability:
       type: NativeHA
