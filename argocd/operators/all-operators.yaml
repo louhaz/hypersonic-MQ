@@ -18,8 +18,8 @@ spec:
           namespace: openshift-logging
         - name: cert-utils
           namespace: cert-utils-operator       
-        - name: clusterresourceoverride
-          namespace: cp4i
+        #- name: clusterresourceoverride
+         # namespace: cp4i
   template:
     metadata:
       name: '{{name}}-operator'
